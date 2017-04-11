@@ -1,0 +1,26 @@
+Javascript Shooter.
+--------------------
+
+Notes on game construction.
+----------------------------
+
+1. Create canvas.
+------------------
+In the index html create a canvas and then put some suitable values into a css file.
+<canvas id="canvas" width="600" height="600"></canvas>
+&
+body {
+  padding:0;
+  margin:0;
+  background:#666;
+}
+canvas {
+  display:block;
+  margin:30px auto 0;
+  border:1px dashed #ccc;
+  background:#000;
+}
+
+
+2. Setup player ship.
+---------------------
